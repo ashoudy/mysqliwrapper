@@ -36,7 +36,7 @@
 		{
 			return $this->SelectedResult[$row];
 		}
-	public function Escape($var)
+		public function Escape($var)
 		{
 			$vari = mysqli_real_escape_string($this->Connection, $var);
 			return $vari;

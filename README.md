@@ -6,7 +6,9 @@ A Simple Mysqli DB wrapper.
 Usage:
 Update the variables inside the Database.php file.
 include in your file.
-initiate like so
+
+Initiate like so
+
 $db = new Database(false);
 
 $db->Query("querys go here"); - Querys
